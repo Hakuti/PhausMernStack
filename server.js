@@ -40,7 +40,6 @@ app.use("/api/party", party)
 
 //Serve static assets if in production
 if(process.env.NODE_ENV == 'production'){
-    console.log(process.env.mongoURI);
     app.use(express.static('client/build'));
     
     app.get('*', (req, res) => {
