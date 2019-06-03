@@ -1,0 +1,153 @@
+.scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+      white-space: nowrap; 
+    }
+  
+  .card-title-21 {
+    position: relative;
+    top: -10px;
+    left: 0% !important;
+    font-family: "helvetica";
+    font-size: 16px !important;
+    
+  }
+  
+  .party-body {
+    text-align: left;
+    font-size: 13px;
+    font-family: "helvetica";
+    margin-top: 0px !important;
+    font-weight: 100;
+  }
+  
+  .party-price {
+  /*   background: green; */
+    text-align: right;
+    flex: 1;
+    font-family: "helvetica";
+    color: #EF29FF;
+    align-self: center;
+    font-size: 16px;
+    
+    
+  /*   background: blue;
+    display: inline;
+    position: relative;
+    top: -44px;
+    margin-left: 200px !important; */
+    
+  }
+  
+  .card-content-head{
+    position: relative;
+    bottom: 20px;
+    display: flex;
+    margin-top: 0px !important;
+  /*   background: red; */
+  }
+  
+  .party-title {
+    text-align: left;
+    flex: 4;
+    /* background: blue; */
+    font-family: helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    
+  /*   margin-top: 0px;
+    margin-bottom: 0px;
+    display: inline;
+    position: relative;
+    bottom: 20px;
+    font-size: 18px;
+    margin-right: 90% !important;
+    font-family: "helvetica";
+    background: red; */
+  }
+  .party-date {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    bottom: 20px;
+    display: block;
+    position: relative;
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: "helvetica";
+    text-align: left;
+    /* margin-right: 0% !important; */
+    /* background: blue; */
+  }
+  .card-image {
+    margin-bottom: 0px !important;
+  /*   background: red; */
+  }
+  .card-content {
+  /*   background: blue; */
+    margin-top: 0px !important;
+  }
+  
+  .center {
+    margin: 20px auto;
+  }
+  
+  .card-height {
+    height: 400px;
+  }
+  
+  .card-width {
+    width: 300px !important;
+  }
+  
+  @media only screen and (max-width: 1273px) {
+    .card-width{
+      width: 280px !important;
+    }
+    .card-height {
+      height: 400px;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 1180px) {
+    .card-width{
+      width: 240px !important;
+    }
+    .card-height {
+      height: 380px;
+    }
+    
+  }
+  
+  
+  @media only screen and (max-width: 990px) {
+    .card-width{
+      width: 380px !important;
+    }
+    .card-height {
+      height: 420px;
+    }
+    
+  }
+  
+  @media only screen and (max-width: 795px) {
+    .card-width{
+      width: 300px !important;
+    }
+    .card-height {
+      height: 400px;
+    }
+    
+    
+  }
+
+  @media only screen and (max-width: 600px) {
+    .card-width{
+      width: 350px !important;
+    }
+    .card-height {
+      height: 400px;
+    }
+    
+    
+  }

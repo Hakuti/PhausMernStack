@@ -1,0 +1,459 @@
+/*
+We got several different things to consider
+Let's start off with the margins
+
+The margins need to be the default until X-Screen size, so let's go with...
+*/
+
+.HoldMyBeer div:nth-child(1) p:nth-child(3){
+    /* margin-bottom: 0px; */
+    margin-top: 1px;
+    
+}
+
+.HoldMyBeer div:nth-child(1) p:nth-child(1){
+    font-weight: 500;
+    
+}
+
+.HoldMyBeer div:nth-child(2) p:nth-child(1){
+    font-weight: 500;
+    
+}
+
+
+
+.HoldMyBeer div:nth-child(2) p:nth-child(2){
+    /* margin-bottom: 0px; */
+    margin-top: 1px;
+    
+}
+.HoldMyBeer div:nth-child(2) p:nth-child(3){
+    /* margin-bottom: 0px; */
+    margin-top: 1px;
+    
+}
+.HoldMyBeer div:nth-child(2) p:nth-child(4){
+    /* margin-bottom: 0px; */
+    margin-top: 1px;
+    
+}
+
+.button-div-party {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: white;
+}
+
+.date-div-top-inner div {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.date-div-top-inner div:nth-child(1){
+    margin-bottom: 25px;
+
+    
+}
+
+.date-div-top-inner div:nth-child(1) p:nth-child(2){
+    font-size: 18px;
+    margin-left: 1%;
+    
+}
+
+.date-div-top-inner div:nth-child(2){
+    display: flex;
+    /* margin-bottom: 15px; */
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.date-div-top-inner div:nth-child(3){
+    display: flex;
+    
+    margin-bottom: 10px;
+    /* padding-bottom: 10px; */
+}
+
+.date-div-top-inner div:nth-child(3) p{
+    color: gray;
+}
+
+.date-div-top-inner div:nth-child(4){
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    /* color: orange; */
+    /* position: relative; */
+    /* padding-bottom: 10px !important; */
+    /* background: blue; */
+    /* padding: 10px; */
+}
+
+.date-div-top-inner div:nth-child(4) p{
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    color: orangered;
+    /* position: relative; */
+    /* padding-bottom: 10px !important; */
+    /* background: blue; */
+    /* padding: 10px; */
+}
+
+
+
+
+
+
+
+
+
+
+.date-div-top-inner p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.noPadding {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.line-separator-1{
+    width: 100% !important;
+    padding: 0px !important;
+    margin: 0px !important;
+    height:1px;
+    
+    background:#717171;
+    
+    border-bottom:1px solid lightgray;
+    
+}
+
+.HoldMyBeer i {
+    visibility: hidden;
+    /* margin-top: 5px; */
+}
+
+.date-div-top-inner p {
+    font-family: Helvetica;
+    color: black;
+}
+
+.background-gradient{
+    background: #ffb732 center top repeat-x;
+    
+
+}
+.container-P-margins {
+    /* margin-right: 13%;
+    margin-left: 13%; */
+    width: 1082px;
+    /* margin-top: 37px; */
+    z-index: 99;
+    
+    /* background: blue !important; */
+    
+}
+
+.div-top-one {
+    margin:0;
+    height: 60px;
+    width: 100%;
+    background: blue;
+    border-top-left-radius: 10px;
+}
+
+.img-div-top {
+    width: 23vw;
+    height: 25vw;
+    border-top-left-radius: 10px;
+    padding: 0 !important;
+    
+}
+
+.img-div-top img {
+    max-height: 25vw;
+    min-height: 25vw;
+    width: 100%;
+    height: auto;
+    /* border-top-left-radius:10px; */
+
+   
+}
+
+
+
+.date-div-top {
+    width: 23vw;
+    height: 25vw;
+    /* border-top-right-radius: 10px; */
+    /* border: solid 3px; */
+    background:whitesmoke;
+
+}
+
+
+.body-div-left {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    /* flex-direction: column; */
+}
+
+.body-div-left div {
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    /* align-items: center; */
+    /* background: blue; */
+}
+
+.body-div-left div div:nth-child(1){
+    font-size: 24px;
+    /* background: blue; */
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    
+    /* text-align: center; */
+}
+
+
+
+.body-div-left div div:nth-child(2){
+    font-size: 24px;
+    /* background: blue; */
+    display: flex;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.body-div-left div div:nth-child(3){
+    font-size: 18px;
+    margin-top: 0px;
+    /* background: blue; */
+    color: gray;
+    display: flex;
+    margin-left: 30px;
+}
+
+.date-loc-div-right {
+    height: 800px;
+}
+
+
+.date-div-top-inner {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 30px;
+    height: 100%;
+    /* width: 90%; */
+    /* margin-left: 10%; */
+}
+
+#hide-on-desktop {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 1273px) {
+    
+    .HoldMyBeer {
+        margin-left: 20px;
+    }
+    .img-div-top {
+        width: 23vw;
+        height: 30vw;
+        /* border-top-left-radius: 10px; */
+        
+    }
+    
+    .date-div-top {
+        width: 23vw;
+        height: 30vw;
+        /* border-top-right-radius: 10px; */
+    }
+    
+    .img-div-top img {
+        max-height: 30vw;
+        min-height: 30vw;
+       
+    }
+}
+  
+  @media only screen and (max-width: 1090px) {
+        .container-P-margins {
+            /* margin-right: 0;
+            margin-left: 0; */
+            width: 100%;
+            margin-top: 0;
+            
+        }
+
+        
+
+        .img-div-top {
+            border-top-left-radius: 0px;
+            height: 30vw;
+        }
+        .img-div-top img {
+            max-height: 30vw;
+            min-height: 30vw;
+           
+        }
+           
+    
+  }
+
+
+  
+  
+  @media only screen and (max-width: 799px) {
+
+    .button-div-party {
+        justify-content: center;
+    }
+    .date-div-top {
+        border-top-right-radius: 0px;
+        height: auto;
+    }     
+
+    .HoldMyBeer {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .line-separator{
+        width: 100% !important;
+        padding: 0 !important;
+        margin: 0 !important;
+        height:1px;
+        
+        background:#717171;
+        
+        border-bottom:1px solid lightgray;
+        
+    }
+    #hide-on-desktop {
+        visibility: visible;
+    }
+
+    .HoldMyBeer-Inner{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .HoldMyBeer-Inner div {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        /* border: 3px solid; */
+    }
+
+    .HoldMyBeer-Inner div p {
+        margin-top: 0px;
+    }
+
+    /* .HoldMyBeer div p:nth-child(2){
+        margin-bottom: 0px;
+    } */
+
+    .HoldMyBeer i {
+        margin-left: 10px;
+        opacity: 0.8;
+        color: black;
+        visibility: visible;
+        /* margin-top: 5px; */
+    }
+
+    .date-div-top-inner{
+        margin-left: 10px;
+    }
+    .mobile-view-switch-1{
+        display: flex;
+        flex-direction: column;
+        
+
+        
+    }
+
+    .img-div-top {
+        width: 100% !important;
+        height: 50vw;
+    }
+
+    .img-div-top img {
+        max-height: 50vw;
+        min-height: 50vw;
+       
+    }
+    
+    .date-div-top{
+        width: 100% !important;
+        background-color: white;
+        
+    }
+
+    .mobile-view-disappear{
+        display: none !important;
+    }
+
+    .mb-view-1 {
+        align-items: flex-start !important;
+        margin-top: 10px;
+        flex: 3
+    }
+
+    .mb-view-2 {
+        flex: 2 !important;
+    }
+  
+    
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .img-div-top {
+        height: 50vw;
+    }
+
+    .img-div-top img {
+        max-height: 50vw;
+        min-height: 50vw;
+       
+    }
+    .date-div-top{
+        height: 120px;
+
+        
+    }
+
+    .body-div-left {
+        order: 2;
+    }
+
+    .date-loc-div-right{
+        height: 300px;
+        order: 1;
+    }
+
+    .mobile-view-switch{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    
+    
+    
+    
+  }
